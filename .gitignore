@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# 데이터 파일 (README 참고해서 직접 다운로드)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Airflow 실행 로그
+logs/*
+!logs/.gitkeep
+
+# 환경 변수 (다음 단계에서 생성 예정)
+.env
